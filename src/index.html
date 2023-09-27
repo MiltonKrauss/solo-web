@@ -1,19 +1,67 @@
 <!-- This page is designed as a learning experience only. -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>SoloWeb</title>
-</head>
-<body>
-    <nav></nav>
-    <header></header>
-    <main>
-        <img src="images/001.jpg" alt="A precarious stairway" id="img1">
-    </main>
-    
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>SoloWeb</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                
+            </nav>
+        </header>
+        
+        <main>
+            <img src="images/001.jpg" alt="A precarious stairway" id="img1">
+        </main>
+        <ul>
+            <li>Visit a new city
+                <ol>
+                    <li>London</li>
+                    <li>Rome</li>
+                </ol>
+            </li>
+            <li>Explore a national park</li>
+        </ul>
+
+        <h1>New Product</h1>
+        <img src="https://blob.sololearn.com/courses/np.png" alt="Sololearn image">
+        <p><strong>This</strong> is a <em>description</em> of the product.</p>
+        <p>Here are some features of the product:</p>
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+        <h2>Order now!</h2>
+        <form>
+            <label for="size">Size:</label>
+            <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium" selected>Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <label for="color">Color:</label>
+            <select name="color" id="color">Color:
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+            <br><br>
+            <label for="order-name">Name:</label>
+            <input type="text" name="order-name" id="order-name"><br><br>
+            <label for="order-email">Email:</label>
+            <input type="email" name="order-email" id="order-email"><br><br>
+            <input type="submit">
+        </form>
+        <br><br>
+        <video controls width="1000px">
+            <source src="videos/mt-fog.mp4" type="video/mp4">
+            Video not supported.
+        </video>
+        
+    </body>
 </html>
