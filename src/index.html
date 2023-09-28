@@ -10,58 +10,92 @@
     <body>
         <header>
             <nav>
-                
+               <p style="border:solid red 2px; color:brown; font-size: large;">Future site of a nav bar?</p> 
             </nav>
         </header>
         
         <main>
             <img src="images/001.jpg" alt="A precarious stairway" id="img1">
-        </main>
-        <ul>
-            <li>Visit a new city
-                <ol>
-                    <li>London</li>
-                    <li>Rome</li>
-                </ol>
-            </li>
-            <li>Explore a national park</li>
-        </ul>
-
-        <h1>New Product</h1>
-        <img src="https://blob.sololearn.com/courses/np.png" alt="Sololearn image">
-        <p><strong>This</strong> is a <em>description</em> of the product.</p>
-        <p>Here are some features of the product:</p>
-        <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-        </ul>
-        <h2>Order now!</h2>
-        <form>
-            <label for="size">Size:</label>
-            <select name="size" id="size">
-                <option value="small">Small</option>
-                <option value="medium" selected>Medium</option>
-                <option value="large">Large</option>
-            </select>
-            <label for="color">Color:</label>
-            <select name="color" id="color">Color:
-                <option value="red">Red</option>
-                <option value="green">Green</option>
-                <option value="blue">Blue</option>
-            </select>
+            <ul>
+                <li>Visit a new city
+                    <ol>
+                        <li>London</li>
+                        <li>Rome</li>
+                    </ol>
+                </li>
+                <li>Explore a national park</li>
+            </ul>
+    
+            <h1 style="border:outset">New Product</h1>
+            <img src="https://blob.sololearn.com/courses/np.png" alt="Sololearn image">
+            <p><strong>This</strong> is a <em>description</em> of the product.</p>
+            <p>Here are some features of the product:</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <h2>Order now!</h2>
+            <form>
+                <label for="size">Size:</label>
+                <select name="size" id="size">
+                    <option value="small">Small</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <label for="color">Color:</label>
+                <select name="color" id="color">Color:
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+                <br><br>
+                <label for="checkered">Checkered?</label>
+                <input type="checkbox" name="checkered" id="checkered">
+                <label for="camo">Predator camouflage?</label>
+                <input type="checkbox" name="camo" id="camo">
+                <label for="zerograv">Zero-gravity?</label>
+                <input type="checkbox" name="zerograv" id="zerograv">
+                <br><br>
+                <label for="order-name">Name:</label>
+                <input type="text" name="order-name" id="order-name"><br><br>
+                <label for="order-email">Email:</label>
+                <input type="email" name="order-email" id="order-email"><br><br>
+                <input type="submit" onclick="alert('Order complete! Your card has been charged.')">
+            </form>
             <br><br>
-            <label for="order-name">Name:</label>
-            <input type="text" name="order-name" id="order-name"><br><br>
-            <label for="order-email">Email:</label>
-            <input type="email" name="order-email" id="order-email"><br><br>
-            <input type="submit">
-        </form>
-        <br><br>
-        <video controls width="1000px">
-            <source src="videos/mt-fog.mp4" type="video/mp4">
-            Video not supported.
-        </video>
+            <video controls width="1000px">
+                <source src="videos/mt-fog.mp4" type="video/mp4">
+                Video not supported.
+            </video>
+            <audio src="audio/system-shutdown-63911.mp3" type="audio/mp3" autoplay>
+                Audio not supported.
+            </audio>
+            <br><br>
+            <table style="border:solid">
+                <tr>
+                    <th style="color:blue; border:solid">Month</th>
+                    <th style="color:green; border:solid">Budget($)</th>
+                </tr>
+                <tr>
+                    <td style="border:solid">January</td>
+                    <td style="border:solid; text-align: center;">500</td>
+                </tr>
+                <tr>
+                    <td style="border:solid">February</td>
+                    <td style="border:solid; text-align: center;">400</td>
+                </tr>
+                <tr>
+                    <td style="border:solid; text-align: center;" colspan="2">Sum: 900</td>
+                </tr>
+            </table>
+            <br><br>
+            <button onclick="alert('Welcome to JS!')">Click me</button>
+            <br><br>
+        </main>
         
+        <footer style="background-color: salmon; border: double darkblue 5px">
+            <p>Copyrights unnecessary</p>
+        </footer>
     </body>
 </html>
